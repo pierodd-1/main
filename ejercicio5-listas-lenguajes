@@ -1,0 +1,7 @@
+lenguajes = ["Python", "Ruby", "PHP", "Javascript", "Java"]
+
+i = input("Ingrese lenguaje: ") # Buscar si el elemento "PHP" se encuentra en la lista
+if i in lenguajes:
+    print("El lenguaje si se encuentra en la lista")
+else:
+    print("El lenguaje no se encuentra en la lista")
